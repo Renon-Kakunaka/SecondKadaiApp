@@ -16,19 +16,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="名前を入力してください" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="skZ-2Y-Rjh">
-                                <rect key="frame" x="111.5" y="199" width="191" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前を入力してください" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="skZ-2Y-Rjh">
+                                <rect key="frame" x="111.5" y="144" width="191" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eIs-sA-wUQ">
-                                <rect key="frame" x="191" y="266" width="32" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eIs-sA-wUQ">
+                                <rect key="frame" x="191" y="265" width="32" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rfa-LJ-Nye">
-                                <rect key="frame" x="191.5" y="392" width="31" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rfa-LJ-Nye">
+                                <rect key="frame" x="191.5" y="399" width="31" height="30"/>
                                 <state key="normal" title="表示"/>
                                 <connections>
                                     <segue destination="mlE-AH-3hV" kind="show" id="cO8-op-FhO"/>
@@ -41,8 +41,11 @@
                             <constraint firstItem="skZ-2Y-Rjh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FQT-fM-mcK"/>
                             <constraint firstItem="eIs-sA-wUQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IRh-Yf-VCA"/>
                             <constraint firstItem="rfa-LJ-Nye" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Plv-DR-vLe"/>
+                            <constraint firstItem="skZ-2Y-Rjh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="XFb-Tx-ZEJ"/>
+                            <constraint firstItem="rfa-LJ-Nye" firstAttribute="top" secondItem="eIs-sA-wUQ" secondAttribute="bottom" constant="100" id="ZxG-xT-YNQ"/>
                             <constraint firstItem="skZ-2Y-Rjh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eL6-Qz-myJ"/>
                             <constraint firstItem="eIs-sA-wUQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="h4e-Xd-hBU"/>
+                            <constraint firstItem="eIs-sA-wUQ" firstAttribute="top" secondItem="skZ-2Y-Rjh" secondAttribute="bottom" constant="100" id="jO1-a0-pJt"/>
                             <constraint firstItem="rfa-LJ-Nye" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lNj-ML-sap"/>
                             <constraint firstItem="rfa-LJ-Nye" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lWC-ca-s7s"/>
                             <constraint firstItem="skZ-2Y-Rjh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ojp-oL-yOd"/>
@@ -64,14 +67,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BSE-Lx-nLa">
-                                <rect key="frame" x="186" y="240" width="42" height="25"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BSE-Lx-nLa">
+                                <rect key="frame" x="186" y="100" width="42" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tjJ-gP-HKs">
-                                <rect key="frame" x="192" y="352" width="31" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tjJ-gP-HKs">
+                                <rect key="frame" x="191.5" y="220.5" width="31" height="30"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
                                     <segue destination="SCa-1W-yQT" kind="unwind" unwindAction="unwind:" id="TlC-zQ-UHd"/>
@@ -86,6 +89,8 @@
                             <constraint firstItem="BSE-Lx-nLa" firstAttribute="centerX" secondItem="C8j-VE-NFr" secondAttribute="centerX" id="mPD-C2-LpT"/>
                             <constraint firstItem="tjJ-gP-HKs" firstAttribute="centerX" secondItem="C8j-VE-NFr" secondAttribute="centerX" id="ozM-rc-krV"/>
                             <constraint firstItem="tjJ-gP-HKs" firstAttribute="centerX" secondItem="C8j-VE-NFr" secondAttribute="centerX" id="q3t-V9-ssZ"/>
+                            <constraint firstItem="tjJ-gP-HKs" firstAttribute="top" secondItem="BSE-Lx-nLa" secondAttribute="bottom" constant="100" id="sKD-6v-FRd"/>
+                            <constraint firstItem="BSE-Lx-nLa" firstAttribute="top" secondItem="NSx-qz-6eX" secondAttribute="top" constant="100" id="ugg-CM-RNE"/>
                             <constraint firstItem="BSE-Lx-nLa" firstAttribute="centerX" secondItem="C8j-VE-NFr" secondAttribute="centerX" id="uqA-lj-2hT"/>
                         </constraints>
                     </view>
